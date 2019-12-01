@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Seasons</string>
+    <string name="your_string_here">
+        This is an <u>underline</u>
+    </string>
+    <string name="spring">Spring</string>
+    <string name="mar">MAR</string>
+    <string name="apr">APR</string>
+    <string name="jun">JUN</string>
+    <string name="jul">JUL</string>
+    <string name="aug">AUG</string>
+    <string name="autumn">Autumn</string>
+    <string name="sep">SEP</string>
+    <string name="oct">OCT</string>
+    <string name="nov">NOV</string>
+    <string name="winter">Winter</string>
+    <string name="dec">DEC</string>
+    <string name="feb">FEB</string>
+
+</resources>

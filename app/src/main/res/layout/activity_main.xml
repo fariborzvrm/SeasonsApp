@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_margin="8dp">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/textViewColor"
+           android:text="@string/spring"
+           android:textStyle="bold"/>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="4dp"
+           android:background="@color/textViewColor"
+           />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:layout_margin="8dp"
+           >
+
+          <TextView
+              android:layout_width="42dp"
+              android:layout_height="42dp"
+              android:id="@+id/txtMarch"
+              android:onClick="myClick"
+              android:text="@string/mar"
+              android:gravity="center"
+              android:background="@color/textViewBackground"
+              android:textColor="@color/textViewColor1"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="42dp"
+               android:id="@+id/imgMarch"
+               android:src="@drawable/spring1"
+               android:onClick="myClick"
+               android:scaleType="fitXY"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:layout_margin="8dp"
+           >
+
+           <TextView
+               android:layout_width="42dp"
+               android:layout_height="42dp"
+               android:id="@+id/txtApril"
+               android:onClick="myClick"
+               android:text="@string/apr"
+               android:gravity="center"
+               android:background="@color/textViewBackground"
+               android:textColor="@color/textViewColor1"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="42dp"
+               android:onClick="myClick"
+               android:src="@drawable/spring2"
+               android:id="@+id/imgApril"
+               android:scaleType="fitXY"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:layout_margin="8dp"
+           >
+
+           <TextView
+               android:layout_width="42dp"
+               android:layout_height="42dp"
+               android:text="MAY"
+               android:onClick="myClick"
+               android:id="@+id/txtMay"
+               android:gravity="center"
+               android:background="@color/textViewBackground"
+               android:textColor="@color/textViewColor1"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="42dp"
+               android:id="@+id/imgMay"
+               android:onClick="myClick"
+               android:src="@drawable/spring3"
+               android:scaleType="fitXY"/>
+
+
+       </LinearLayout>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/textViewColor"
+           android:text="Summer"
+           android:textStyle="bold"/>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="4dp"
+           android:background="@color/textViewColor"
+           />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:layout_margin="8dp"
+           >
+
+           <TextView
+               android:layout_width="42dp"
+               android:layout_height="42dp"
+               android:text="@string/jun"
+               android:gravity="center"
+               android:onClick="myClick"
+               android:id="@+id/txtJune"
+               android:background="@color/textViewBackground"
+               android:textColor="@color/textViewColor1"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="42dp"
+               android:src="@drawable/summer1"
+               android:onClick="myClick"
+               android:id="@+id/imgJune"
+               android:scaleType="fitXY"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:layout_margin="8dp"
+           >
+
+           <TextView
+               android:layout_width="42dp"
+               android:layout_height="42dp"
+               android:text="@string/jul"
+               android:gravity="center"
+               android:id="@+id/txtJuly"
+               android:onClick="myClick"
+               android:background="@color/textViewBackground"
+               android:textColor="@color/textViewColor1"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="42dp"
+               android:onClick="myClick"
+               android:id="@+id/imgJuly"
+               android:src="@drawable/summer2"
+               android:scaleType="fitXY"/>
+
+
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:layout_margin="8dp"
+           >
+
+           <TextView
+               android:layout_width="42dp"
+               android:layout_height="42dp"
+               android:onClick="myClick"
+               android:text="@string/aug"
+               android:id="@+id/txtAugust"
+               android:gravity="center"
+               android:background="@color/textViewBackground"
+               android:textColor="@color/textViewColor1"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="42dp"
+               android:src="@drawable/summer3"
+               android:onClick="myClick"
+               android:id="@+id/imgAugust"
+               android:scaleType="fitXY"/>
+
+
+       </LinearLayout>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/textViewColor"
+           android:text="@string/autumn"
+           android:textStyle="bold"/>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="4dp"
+           android:background="@color/textViewColor"
+           />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:layout_margin="8dp"
+           >
+
+           <TextView
+               android:layout_width="42dp"
+               android:layout_height="42dp"
+               android:text="@string/sep"
+               android:gravity="center"
+               android:onClick="myClick"
+               android:id="@+id/txtSeptember"
+               android:background="@color/textViewBackground"
+               android:textColor="@color/textViewColor1"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="42dp"
+               android:id="@+id/imgSeptember"
+               android:onClick="myClick"
+               android:src="@drawable/fall1"
+               android:scaleType="fitXY"/>
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:layout_margin="8dp"
+           >
+
+           <TextView
+               android:layout_width="42dp"
+               android:layout_height="42dp"
+               android:text="@string/oct"
+               android:gravity="center"
+               android:onClick="myClick"
+               android:id="@+id/txtOctober"
+               android:background="@color/textViewBackground"
+               android:textColor="@color/textViewColor1"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="42dp"
+               android:id="@+id/imgOctober"
+               android:onClick="myClick"
+               android:src="@drawable/fall2"
+               android:scaleType="fitXY"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:layout_margin="8dp"
+           >
+
+           <TextView
+               android:layout_width="42dp"
+               android:layout_height="42dp"
+               android:text="@string/nov"
+               android:onClick="myClick"
+               android:id="@+id/txtNovember"
+               android:gravity="center"
+               android:background="@color/textViewBackground"
+               android:textColor="@color/textViewColor1"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="42dp"
+               android:id="@+id/imgNovember"
+               android:src="@drawable/fall4"
+               android:onClick="myClick"
+               android:scaleType="fitXY"/>
+
+
+       </LinearLayout>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/textViewColor"
+           android:text="@string/winter"
+           android:textStyle="bold"/>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="4dp"
+           android:background="@color/textViewColor"
+           />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:layout_margin="8dp"
+           >
+
+           <TextView
+               android:layout_width="42dp"
+               android:layout_height="42dp"
+               android:onClick="myClick"
+               android:text="@string/dec"
+               android:gravity="center"
+               android:id="@+id/txtDecember"
+               android:background="@color/textViewBackground"
+               android:textColor="@color/textViewColor1"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="42dp"
+               android:id="@+id/imgDecember"
+               android:onClick="myClick"
+               android:src="@drawable/winter1"
+               android:scaleType="fitXY"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:layout_margin="8dp"
+           >
+
+           <TextView
+               android:layout_width="42dp"
+               android:layout_height="42dp"
+               android:text="JAN"
+               android:onClick="myClick"
+               android:gravity="center"
+               android:id="@+id/txtJanuary"
+               android:background="@color/textViewBackground"
+               android:textColor="@color/textViewColor1"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="42dp"
+               android:id="@+id/imgJanuary"
+               android:onClick="myClick"
+               android:src="@drawable/winter2"
+               android:scaleType="fitXY"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:layout_margin="8dp"
+           >
+
+           <TextView
+               android:layout_width="42dp"
+               android:layout_height="42dp"
+               android:text="@string/feb"
+               android:gravity="center"
+               android:onClick="myClick"
+               android:id="@+id/txtFebruary"
+               android:background="@color/textViewBackground"
+               android:textColor="@color/textViewColor1"/>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="42dp"
+               android:src="@drawable/winter4"
+               android:id="@+id/imgFebruary"
+               android:onClick="myClick"
+               android:layout_marginBottom="8dp"
+               android:scaleType="fitXY"/>
+
+
+       </LinearLayout>
+
+
+   </LinearLayout>
+
+</ScrollView>
